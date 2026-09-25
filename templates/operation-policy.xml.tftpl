@@ -1,0 +1,16 @@
+<policies>
+  <inbound>
+    <base />
+    <set-backend-service backend-id="${backend_id}" />
+    <rewrite-uri template="${target_path}" copy-unmatched-params="true" />
+  </inbound>
+  <backend>
+    <base />
+  </backend>
+  <outbound>
+    <base />
+  </outbound>
+  <on-error>
+    <base />
+  </on-error>
+</policies>

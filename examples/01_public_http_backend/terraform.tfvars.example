@@ -1,0 +1,9 @@
+resource_group_name = "fk-api-management-http-rg"
+location            = "westeurope"
+publisher_name      = "FoggyKitchen"
+publisher_email     = "training@example.com"
+
+tags = {
+  project = "foggykitchen"
+  env     = "dev"
+}
